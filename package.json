@@ -1,0 +1,35 @@
+{
+  "name": "demoapp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "lint": "eslint app/"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "react": "16.6.3",
+    "react-native": "0.57.8",
+    "react-native-gesture-handler": "^1.0.12",
+    "react-navigation": "^3.0.5",
+    "react-redux": "^6.0.0",
+    "redux": "^4.0.1",
+    "redux-persist": "^5.10.0",
+    "redux-saga": "^0.16.2",
+    "validator": "^10.10.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "23.6.0",
+    "eslint": "^5.11.1",
+    "eslint-plugin-react": "^7.12.0",
+    "eslint-plugin-react-native": "^3.5.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.51.0",
+    "react-test-renderer": "16.6.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
